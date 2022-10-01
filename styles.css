@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+a {
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+img {
+    cursor: pointer;
+}
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0,  0 , 0.2);
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+
+}
+.nav-right .user-icon {
+
+    width: 35px;
+    border-radius: 50%;
+}
+.nav-left .menus{
+    width: 22px;
+    margin-right: 25px;
+
+}
+.nav-middle img{
+    width: 18px;
+    
+}
+.nav-middle .mic-icon{
+    width: 16px;
+}
+.nav-middle .search-box{
+    border: 1px solid black;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.nav-middle .search-box input{
+    width: 550px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.nav-middle .search-box img{
+    width: 15px;
+
+}
+/* ---------------sidebar--------------- */
+.sidebar{
+    background: white;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+.shortcut-links a img{
+    width: 20px;
+    margin-right: 20px;
+}
+.shortcut-links a{
+    display: flex;
+    align-items:center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.shortcut-links a:first-child{
+    color: #ed3833
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    width: 80%;
+    background: #ccc;
+}
+.subsribed-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.subsribed-list a{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.subsribed-list a img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar a p {
+    display: none;
+}
+.small-sidebar h3{
+    display:none;
+}
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 20px;
+}
+/* ----------------main--------- */
+.container{
+    background: #f9f9f9;
+    padding-left: 17px;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    border-radius: 8px;
+}
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+.vid-list .thumbnail{
+    width: 100%;
+    border-radius: 5%;
+}
+.vid-list .flex-div{
+    align-items: flex-start;
+}
+.vid-list .flex-div img{
+ width: 35px;  
+  margin-right: 10px;
+  border-radius: 50%;
+}
