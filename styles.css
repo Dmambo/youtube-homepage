@@ -16,6 +16,7 @@ img {
     display: flex;
     align-items: center;
 }
+
 nav{
     padding: 10px 2%;
     justify-content: space-between;
@@ -63,7 +64,7 @@ nav{
     width: 15px;
 
 }
-/* ---------------sidebar--------------- */
+/* ---------------sidebar styling--------------- */
 .sidebar{
     background: white;
     width: 15%;
@@ -125,7 +126,7 @@ nav{
     width: 50%;
     margin-bottom: 20px;
 }
-/* ----------------main--------- */
+/* ----------------main section styling--------- */
 .container{
     background: #f9f9f9;
     padding-left: 17px;
